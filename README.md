@@ -56,7 +56,7 @@ The base algorithms included are Distributed Random Forest (DRF), Extremely Rand
 Part III  Model Interpretability   
 
 The third part discusses building automated pipelines that allow a human to understand the logic and process that a model uses to answer an assertion. This is model interpretability which refers to how easy it is for humans to understand the processes a model uses to arrive at its outcomes.
-Technqiues include individual conditional expectation (ICE), leave-one-covariance (l LOCO), local feature importance, partial dependency plots, tree-based feature importance, standardized coefficient importance, accumulated local effects (ALE) plots and Shapley values. .
+Technqiues include individual conditional expectation (ICE), leave-one-covariance (LOCO), local feature importance, partial dependency plots, tree-based feature importance, standardized coefficient importance, accumulated local effects (ALE) plots and Shapley values. .
 The output of a model interpretability pipeline is as follows:
 A Model Schematic Diagram that visualizes all of he steps that each model uses to arrive at its outcomes.
 Plots that show the outcome of model interpretability algorithms such as feature importance. partial dependency plots, etc.
