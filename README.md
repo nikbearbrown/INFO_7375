@@ -3,6 +3,19 @@ INFO 7375 - Special Topics in Artificial Intelligence Engineering Computational 
 
 In this seminar we do research in Computational Skepticism, that is, building systems to answer the question "Why Should I Trust an Algorithms Predictions?”   
 
+As a group, students and any collaborators will be writing a book called "Computational Skepticism." Small groups of students will collaborate writing a chapter. Two students have already started on their chapter on model interpretability, so you can see what the beginnings of this process looks like here [https://maheshwarappa-a.gitbook.io/ads/](https://maheshwarappa-a.gitbook.io/ads/)  
+
+Once completed the Computational Skepticism book will be available for free online and published with an ISBN through the Banataba project through a publishing site such as https://www.Blurb.com.
+
+
+_What is Computational Skepticism?_   
+ 
+Evidence, as broadly construed, is anything presented in support or opposition of an assertion. Creating an automated skepticism pipeline is intended to do three things: 1) accumulate as much evidence for an assertion or question as it can in an automated way, 2) store and search that data and 3) present and visualize that data in an understandable manner.
+
+There are many forms of evidence in machine learning, all of which are active areas of research. The goal of Computational Skepticism is to automate the best practices in all of these areas of research into a single, intuitive framework. The forms of automated evidence gathering to be studied include: data quality and completeness, bias and fairness ,  AutoML, model interpretability, causal inference, counterfactual models, deep learning pipelines (AutoDL), time-series pipelines (AutoTS), feature engineering pipelines  AutoFE), autovisualization (AutoViz), reinforcement learning pipelines (AutoRL), evidence knowledge graphs (EKG) and many more.
+
+
+
 _Course Description_    
 
 ‘Trust but verify,’ is a proverb that should be a mantra for the age of artificial intelligence. Despite their widespread adoption, machine learning models remain mostly black boxes. In spite of this, many who use machine learning to make critical predictions in domains such as finance, telecommunication, healthcare, and many other domains don’t fully understand how machine learning models make their predictions.
@@ -33,75 +46,67 @@ Students only can enroll through the approval of the instructor. Students must h
 
 _Course Schedule_    
 
-This is a seminar class. The literature is read and presented every week. Students present their research every two to three weeks. The beginning of each week will introduce new theory. The focus for Summer 2020 Parts 1 through III below.  Advanced students have the option of working on any of the parts below.
+
+This is a seminar class. The literature is read and presented every week. Students present their research every two to three weeks. The beginning of each week will introduce new theory. The focus for Summer 2020 Parts 1 through IV below.  Advanced students have the option of working on any of the parts below.
 
 Companies that have applications and research related to Computational Skepticism will be invited from time to time. 
 
-Part 0  Assertions and Questions  
-
+*Part 0  Assertions and Questions* 
 A preface to the course discusses how to formulate questions and assertions.
 
-Part I  Data  
+*Part I  Data*   
+The first part discusses understanding data quality, bias, and predictive value so that automated pipelines can be built that assess the quality of a dataset and its appropriateness to answer an assertion. Feature engineering is also discussed. Technqiues include descriptive statsitics, data auditing, exploratory data analysis (EDA), resampling methods.
 
-The first part discusses understanding data quality, bias, and predictive value so that automated pipelines can be built that assess the quality of a dataset and its appropriateness to answer an assertion. Feature engineering is also discussed.
+*Part II  Bias and Fairness*  
+Discrimination is the unequal treatment of individuals or groups. While algorithms are blind, unintentional unfairness often creeps into the decisions they suggest, particularly in "black box" models. This part discusses how bias can be introduced into the machine learning pipeline, what it means for a decision to be fair, and methods to remove bias and ensure fairness.
 
-Technqiues include descriptive statsitics, data auditing, exploratory data analysis (EDA), resampling methods, deep learning based bias detection, generative models for “fake” data creation, statistical methods for “fake” data creation.
-
-Part II  Models  
-
-The second part discusses building automated pipelines that build models to answer an assertion, evaluating the best models for a given purpose and selecting the most appropriate parsimonious models. The focus is on Automated machine learning (AutoML) is the process of automating the process of feature selection, algorithm selection, hyperparameter optimization, metric selection and creating stacked ensembles.
+*Part III  Models* 
+The third part discusses building automated pipelines that build models to answer an assertion, evaluating the best models for a given purpose and selecting the most appropriate parsimonious models. The focus is on Automated machine learning (AutoML) is the process of automating the process of feature selection, algorithm selection, hyperparameter optimization, metric selection and creating stacked ensembles.
 Technqiues include feature selection, algorithm selection, hyperparameter optimization, metric selection and stacked ensembles.
 The base algorithms included are Distributed Random Forest (DRF), Extremely Randomized Trees (XRT), Generalized Linear Model (GLM), Generalized Additive Model (GAM), Gradient Boosting Machine (GBM), XGBoost, and Simple Deep Learning (MLP Neural Networks)
 
-Part III  Model Interpretability   
-
-The third part discusses building automated pipelines that allow a human to understand the logic and process that a model uses to answer an assertion. This is model interpretability which refers to how easy it is for humans to understand the processes a model uses to arrive at its outcomes.
+*Part IV  Model Interpretability*  
+The fourth part discusses building automated pipelines that allow a human to understand the logic and process that a model uses to answer an assertion. This is model interpretability which refers to how easy it is for humans to understand the processes a model uses to arrive at its outcomes.
 Technqiues include individual conditional expectation (ICE), leave-one-covariance (LOCO), local feature importance, partial dependency plots, tree-based feature importance, standardized coefficient importance, accumulated local effects (ALE) plots and Shapley values. .
+The output of a model interpretability pipeline is as follows:
+A Model Schematic Diagram that visualizes all of he steps that each model uses to arrive at its outcomes.
+Plots that show the outcome of model interpretability algorithms such as feature importance. partial dependency plots, etc.
+A Feature Knowledge Graph with compares illustrates feature importance and interrelationships.
+A Data Sensitivity Graph which exposes the effect of adding noise the data on the robustness of a model and the sensitity of individual features.
 
-The output of a model interpretability pipeline is as follows:  
+_Advanced Topics_   
+Advanced Topics (These topics will not be presented as part of a structured lecture but advanced students are encouraged to present the literature in the student presentations related to their research topic). I  will be looking for experts in these areas of research. The presentations by experts won’t necessarily follow any particular order but be scheduled according to the external researchers schedules.
+  
+*Part V  Causal Inference*  
+The fifth part causal inference, in the conext of builing automated pipeline for understanding causation. Causal inference is the process of drawing a conclusion about a causal connection based on the conditions of the occurrence of an effect. The main difference between causal inference and inference of association is that the former analyzes the response of the effect variable when the cause is changed.  In this part we discuss causal methods as compared to traditional statistical methods.
 
-A Model Schematic Diagram that visualizes all of he steps that each model uses to arrive at its outcomes.  
+*Part VI  Counterfactual Models*  
+The sixth part discusses building automated pipelines that build counterfactual simulations and use causal methods to ask “what if” questions. Technqiues include causal inference, agent-based modeling and reinforcement learning.
 
-Plots that show the outcome of model interpretability algorithms such as feature importance. partial dependency plots, etc.  
+*Part VII  Deep Learning Pipeline (AutoDL)*  
+The seventh part is an extension of AutoML discussed in part two to use more soptisticated deep learning models like CNNs, RNNs, Gauge-equivariant convolutional neural networks (Gauge CNNs) or other deep learning models.
 
-A Feature Knowledge Graph with compares illustrates feature importance and interrelationships.   
+*Part VIII  Time-Series Pipeline (AutoTS)*  
+The eigth part is an extension of AutoML discussed in part two to use time series models like ARIMA, VARMA, RNNs, fbProphet, etc. 
 
-A Data Sensitivity Graph which exposes the effect of adding noise the data on the robustness of a model and the sensitity of individual features.  
+*Part IX  Feature Engineering Pipeline (AutoFE)*  
+The ninth part is an extension of AutoML for automated feature extraction.
 
+*Part X  Autovisualization (AutoVIZ)*  
+The tenth part is the integration of machine learning and data visualization to automatically rank and generate relevant plots for a data set.
 
-Part IV  Causal Inference   
-
-The fourth part causal inference, in the conext of builing automated pipeline for understanding causation. Causal inference is the process of drawing a conclusion about a causal connection based on the conditions of the occurrence of an effect. The main difference between causal inference and inference of association is that the former analyzes the response of the effect variable when the cause is changed. 
-
-In this part we discuss causal methods as compared to traditional statistical methods.
-
-Part V  Counterfactual Models   
-
-The fifth part discusses building automated pipelines that build counterfactual simulations and use causal methods to ask “what if” questions.
-
-Technqiues include causal inference, agent-based modeling and reinforcement learning.
-
-Part VI  Deep Learning Pipeline (AutoDL)   
-
-The sixth part is an extension of AutoML discussed in part two to use more soptisticated deep learning models like CNNs, RNNs, Gauge-equivariant convolutional neural networks (Gauge CNNs) or other deep learning models.
-
-Part VII  Time-Series Pipeline (AutoTS)    
-
-The seventh part is an extension of AutoML discussed in part two to use time series models like ARIMA, VARMA, RNNs, fbProphet, etc. 
-
-Part VIII  Feature Engineering Pipeline (AutoFE)   
-
-The eight part is an extension of AutoML for automated feature extraction.
-
-Part IX  Autovisualization (AutoVIZ)   
-
-The ninth part is the integration of machine learning and data visualization to automatically rank and generate relevant plots for a data set.
-
-Part X  Reinforcement Learning Pipeline (AutoRL)   
-
-The tenth part discusses building automated pipelines that answer optimization questions.  The model behind reinforcement learning presupposes one has some form of signal, such as the state of a game board, or the sensors attached to a self-driving car. The central problem that reinforcement learning is intended to solve what is the optimal action to take, given a signal and some objective or reward. For example, what move to make to do well in a game, or what actions to take to not crash a car and get to some destination within any rules of the road.
-
+*Part XI  Reinforcement Learning Pipeline (AutoRL)*  
+The eleventh part discusses building automated pipelines that answer optimization questions.  The model behind reinforcement learning presupposes one has some form of signal, such as the state of a game board, or the sensors attached to a self-driving car. The central problem that reinforcement learning is intended to solve what is the optimal action to take, given a signal and some objective or reward. For example, what move to make to do well in a game, or what actions to take to not crash a car and get to some destination within any rules of the road.
 The AutoRL project is to build automated pipelines for reinforcement learning.
+
+*Part XII  Evidence Knowledge Graphs (EKG)*  
+The twelth part discusses building Knowledge Graphs. A Knowledge Graph is a network database using information gathered from a variety of sources to present information on a topic or thing and its relations with other things.
+For example, a knowledge graph could not only collect facts about an algorithm such as its hyperparameters as one would get in documentation but the distribution of hyperparameter values extracted from its data sources.
+It can so "similar" algorithms and which algorithms are used for particular problems. Google used its Knowledge Graph for answering "roughly one-third" of the 100 billion monthly searches Google processed in May 2016. 
+Knowledge Graphs allow for the addition of "wisdom of the crowds" based evidence into a skeptical framework. Look at the references of the GitHub page under the topics Knowledge Graphs and Collective Intelligence for more information.
+
+
+
 
 
 
