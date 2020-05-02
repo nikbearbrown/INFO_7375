@@ -3,7 +3,7 @@ INFO 7375 - Special Topics in Artificial Intelligence Engineering Computational 
 
 In this seminar we do research in Computational Skepticism, that is, building systems to answer the question "Why Should I Trust an Algorithms Predictions?”   
 
-As a group, students and any collaborators will be writing a book called "Computational Skepticism." Small groups of students will collaborate writing a chapter. Two students have already started on their chapter on model interpretability, so you can see what the beginnings of this process looks like here [https://maheshwarappa-a.gitbook.io/ads/](https://maheshwarappa-a.gitbook.io/ads/)  
+As a group, students and any collaborators will be writing a book called "Computational Skepticism." Small groups of students will collaborate on writing a chapter. Two students have already started on their chapter on model interpretability, so you can see what the beginnings of this process looks like here [https://maheshwarappa-a.gitbook.io/ads/](https://maheshwarappa-a.gitbook.io/ads/)  
 
 Once completed the Computational Skepticism book will be available for free online and published with an ISBN through the Banataba project through a publishing site such as https://www.Blurb.com.
 
