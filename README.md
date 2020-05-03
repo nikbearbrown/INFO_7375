@@ -47,7 +47,7 @@ Students only can enroll through the approval of the instructor. Students must h
 _Course Schedule_    
 
 
-This is a seminar class. The literature is read and presented every week. Students present their research every two to three weeks. The beginning of each week will introduce new theory. The focus for Summer 2020 Parts 1 through IV below.  Advanced students have the option of working on any of the parts below.
+This is a seminar class. The literature is read and presented every week. Students present their research every two to three weeks. The beginning of each week will introduce new theory. The focus for Summer 2020 is parts one through four below.  Advanced students have the option of working on any of the parts below.
 
 Companies that have applications and research related to Computational Skepticism will be invited from time to time. 
 
@@ -78,7 +78,7 @@ _Advanced Topics_
 Advanced Topics (These topics will not be presented as part of a structured lecture but advanced students are encouraged to present the literature in the student presentations related to their research topic). I  will be looking for experts in these areas of research. The presentations by experts won’t necessarily follow any particular order but be scheduled according to the external researchers schedules.
   
 *Part V  Causal Inference*        
-The fifth part causal inference, in the conext of builing automated pipeline for understanding causation. Causal inference is the process of drawing a conclusion about a causal connection based on the conditions of the occurrence of an effect. The main difference between causal inference and inference of association is that the former analyzes the response of the effect variable when the cause is changed.  In this part we discuss causal methods as compared to traditional statistical methods.
+The fifth part is causal inference, in the conext of builing automated pipeline for understanding causation. Causal inference is the process of drawing a conclusion about a causal connection based on the conditions of the occurrence of an effect. The main difference between causal inference and inference of association is that the former analyzes the response of the effect variable when the cause is changed.  In this part we discuss causal methods as compared to traditional statistical methods.
 
 *Part VI  Counterfactual Models*  
 The sixth part discusses building automated pipelines that build counterfactual simulations and use causal methods to ask “what if” questions. Technqiues include causal inference, agent-based modeling and reinforcement learning.
