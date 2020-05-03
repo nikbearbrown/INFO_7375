@@ -51,7 +51,7 @@ This is a seminar class. The literature is read and presented every week. Studen
 
 Companies that have applications and research related to Computational Skepticism will be invited from time to time. 
 
-*Part 0  Assertions and Questions* 
+*Part 0  Assertions and Questions*     
 A preface to the course discusses how to formulate questions and assertions.
 
 *Part I  Data*   
@@ -77,7 +77,7 @@ A Data Sensitivity Graph which exposes the effect of adding noise the data on th
 _Advanced Topics_   
 Advanced Topics (These topics will not be presented as part of a structured lecture but advanced students are encouraged to present the literature in the student presentations related to their research topic). I  will be looking for experts in these areas of research. The presentations by experts won’t necessarily follow any particular order but be scheduled according to the external researchers schedules.
   
-*Part V  Causal Inference*  
+*Part V  Causal Inference*        
 The fifth part causal inference, in the conext of builing automated pipeline for understanding causation. Causal inference is the process of drawing a conclusion about a causal connection based on the conditions of the occurrence of an effect. The main difference between causal inference and inference of association is that the former analyzes the response of the effect variable when the cause is changed.  In this part we discuss causal methods as compared to traditional statistical methods.
 
 *Part VI  Counterfactual Models*  
