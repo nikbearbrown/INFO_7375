@@ -108,5 +108,40 @@ Knowledge Graphs allow for the addition of "wisdom of the crowds" based evidence
 
 
 
+_INFO 7375 - Computational Skepticism Schedule_  
+
+*Week of May 4*  
+
+(Tuesday, May 5) Cinco de Mayo   
+Note: Given the course is online, you will have to supply your own tacos on Taco Tuesdays.   
+
+What is Computational Skepticism?  
+
+What is the course about? Go over the syllabus.    
+The main point - you will contribute to writing a chapter in a book on Computational Skepticism should you choose to stay in the course.  
+
+What Static Site Generators (see https://www.staticgen.com) will we use? I'm thinking of using GitBook, Jekyll, or Github pages.  
+
+Two students (Abhishek Maheshwarappa and Kartik Kumar) have already started on their chapter on model interpretability [https://maheshwarappa-a.gitbook.io/ads/](https://maheshwarappa-a.gitbook.io/ads/)
+
+We will discuss and critique the chapter.
+
+
+
+Show and Tell #1 (Thursday, May 7) (Counts towards participation grade)
+
+Bring in a review article discussing one of the following subjects: data quality and completeness, bias and fairness, AutoML, model interpretability, causal inference, counterfactual models, deep learning pipeline (AutoDL), time-series pipeline ( AutoTS), feature engineering pipeline (AutoFE), autoVisualization ( AutoViz), reinforcement learning pipeline (AutoRL), or evidence knowledge graphs (EKG).    
+
+For example, this article discusses bias and fairness [https://www.borealisai.com/en/blog/tutorial1-bias-and-fairness-ai/ ](https://www.borealisai.com/en/blog/tutorial1-bias-and-fairness-ai/)    
+
+Present the article to the group in 10 minutes.  
+
+
+
+
+
+
+
+
 
 
